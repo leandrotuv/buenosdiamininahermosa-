@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buenos dia mi pirncesa🥺🤍</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('fondo.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: transparent;
+            padding: 2em 0;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 1em;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header p {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #e91e63;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            letter-spacing: 2px;
+            white-space: nowrap;
+            position: absolute;
+            top: -20px;
+            left: 0;
+            transform: translateY(-200%);
+            animation: led-scroll 10s linear infinite, slide-down 5s linear forwards;
+        }
+
+        @keyframes led-scroll {
+            0% { left: 100%; }
+            100% { left: -100%; }
+        }
+
+        @keyframes slide-down {
+            0% { transform: translateY(-200%); }
+            100% { transform: translateY(0); }
+        }
+
+        .content-box {
+            width: 90%;
+            max-width: 800px;
+            background-color: transparent;
+            border: 2px solid #e91e63;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .content-box p {
+            width: 100%;
+            text-align: left;
+            margin-bottom: 15px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .content-box img,
+        .content-box video {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            border: 2px solid #e91e63;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1em;
+            color: #333;
+            margin-top: 0;
+        }
+
+        #music-player-container {
+            margin-top: 20px;
+            width: 90%;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .music-box {
+            width: 100%;
+            max-width: 500px;
+            border: 2px solid #e91e63;
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .music-box p {
+            margin-bottom: 15px;
+            font-size: 18px;
+            color: white;
+        }
+
+        #music-button {
+            background-color: black;
+            color: pink;
+            border: 2px solid pink;
+            border-radius: 5px;
+            font-size: 18px;
+            padding: 10px 20px;
+            cursor: pointer;
+            outline: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #music-button:hover {
+            background-color: pink;
+            color: black;
+        }
+
+        audio {
+            display: none;
+        }
+
+        /* Media Query para pantallas pequeñas */
+        @media (max-width: 768px) {
+            header {
+                padding: 1.5em 0;
+            }
+
+            h1 {
+                font-size: 1.5em;
+                letter-spacing: 1px;
+            }
+
+            .content-box {
+                width: 95%;
+                padding: 10px;
+            }
+
+            .content-box img,
+            .content-box video {
+                max-width: 250px;
+            }
+
+            p {
+                font-size: 0.9em;
+            }
+
+            #music-button {
+                font-size: 16px;
+                padding: 8px 16px;
+            }
+        }
+
+        /* Media Query para pantallas muy pequeñas (móviles) */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.2em;
+            }
+
+            .content-box {
+                width: 95%;
+                padding: 8px;
+            }
+
+            .content-box img,
+            .content-box video {
+                max-width: 200px;
+            }
+
+            #music-button {
+                font-size: 14px;
+                padding: 6px 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>buenoooos dia mi princesa hermosa 🥺🤍 jsjs esta pagina le hize con esfuerzo espero te guste 🥺🤍</h1>
+        <img src="nomi.jpg" alt="Tu y tu novia">
+        <p>mi dormila hermosa y me bella durmiente jsjs te amoooo 🥺🤍</p>
+    </header>
+
+    <div class="content-box">
+        <p>Buenos días, mi princesa hermosa. Esta página me la encuentro haciendo a la 1/10. Perdón mi amor, sé que me mandaste a dormir, pero quiero que tengas una sorpresa.</p>
+        <img src="m1.jpeg" alt="Imagen 1">
+        <p>Y bueno, mi tesoro hermoso, cuéntame cómo amaneciste, mi vida. Yo amanecí bien y contento, mi tiquitita chave. Te amooo, mi amor, no lo olvides, mi princesa.  tenemos que casarnos, mi niña preciosa. Recuerda que esta relación la tenemos que cuidar los dos, mi amor, porque yo te amo y tú me amas, jsjs. Y yo seguiré conquistando ese corazón tan bondadoso que tienes, mi amor.</p>
+        <img src="m2.jpeg" alt="Imagen 2">
+        <p>Yo vi en ti muchas cosas, vi que serás la mujer que más amo en esta vida. Y quién diría, comenzamos como desconocidos y ahora sjjs eres el amor de mvd. No me arrepiento de nada, mi amor, porque en verdad eres la chica que siempre he soñado, mi amor. Eres todo lo que necesito en esta vida, mi tesoro bello, jsjs. Eres mi dormilona.😍😍</p>
+        <img src="m3.jpeg" alt="Imagen 3">
+        <p>Y quiero darte a entender que yo te quiero conmigo para siempre, y te lo prometo, estaré a tu lado, mi amor. Eres una mujer demasiado maravillosa, en serio. Yo te amooo. Aguantaré estos dos meses sin vernos, porque ojalá que vaya a mi colegio, porque ahí te hago feliz todos los días. Un abrazo y besito, sjjs. Ahí tendré la motivación que eres tú.</p>
+        <img src="m4.jpeg" alt="Imagen 4">
+        <p>Te prometo que estando ahí en el colegio daré lo mejor de mí, porque quiero que te enamores perdidamente de mí, mi princesa. Porque en verdad estoy muy ilusionado, amor mío. Solo me imagino estando juntos en el colegio, sjsjsj. Muchos besitos nos damos y, sobre todo, nos vemos todos los días. Yo ahí que voy a faltar, jsjsj. Iré todos los días con las ganas de verte, porque en serio yo no le siento emoción al colegio porque tú no estás. ;(</p>
+        <video src="mini2.mp4" autoplay loop muted></video>
+        <p>En serio, te has vuelto muy importante para mí. A veces, claro, hay días que tú me ves raro, no es porque te deje de amar, simplemente, amor mío, yo siempre pienso por qué nuestra relación es dura por la distancia. Por eso yo intento darte cosas y que te enamores de mí, en serio. Por favor, cásate conmigo, quédate a mi lado, en serio. Te daré lo mejor, yo solo quiero tenerte a mi lado.🥺😍</p>
+        <video src="mini1.mp4" autoplay loop muted></video>
+        <p>Porque vi en ti una niña que necesita de mi amor y alegría.🥺🤍 Desde el día que nos conocimos fue maravilloso, en verdad. Te vi, me enamoré sinceramente, yo dije qué hermosa mujer y desde ahí yo me puse el objetivo de intentar de conquistar tu corazón. Dime algo: ¿Estás dispuesta a estar junto a mí pase lo que pase? ¿Me amarás siempre? ¿O cómo hago para conquistar tu corazón las veces que quiera?🥺🤍</p>
+        <video src="mini.mp4" autoplay loop muted></video>
+        <p>Quiero que me respondas esas preguntas, jsjs. Me lo dices por WhatsApp, amor mío. Recuerda, eres mi princesa y quiero que te levantes con ánimo, con alegría y quiero que recuerdes que te amaré siempre y te respeto, mujer. No estoy dispuesto a perderte, quiero casarme, tener hijitos, vivir juntos y muchas cosas más. Yo sé que el destino puede ser muy malo  pero dime tu si nostro no amamos y ponemos de nuestra parte nosotro podemos crear nuestro destino enserio no me deje ;( me eh encariñado tanto con us amor 
+            avece no tengo la palabra suficiente  para que tu me entienda que en verdad mi ojito mi corazon muere por ti enserio yo con us lo quiero todo eres el amor de mvd
+            y no me equivoco mi corazon me lo dice y eso le hago caso pq simplemente tu me alegra el dia kjsjsj🥺🤍 eres la mejor novia y siempre lo sera te prometo aqui unos cuanto mese te dare un anillo que despues te lo cambiere con unos
+            de matrimonio en verda toy rezando que te cambien al antonio pq te estoy esperando te are feliz te lo juro te necesito ;( eres mia tii che me levanta se lava la carita amor espero que este msj te aya ayudado y recordar que tiene un
+            nino que te amaa muchooo jsjs y tambien bañese sjsj mi cotiita 🥺🤍
+            </p>
+    </div>
+
+    <div id="music-player-container">
+        <div class="music-box">
+            <p>te dedico esta cacion mi amor espero te guste te amooo mucho mi blanquita 🥺🤍</p>
+            <button id="music-button">escuhala amor mio 😍</button>
+        </div>
+        <audio id="music-audio" src="musica.mp3"></audio>
+    </div>
+
+    <script>
+        const musicButton = document.getElementById('music-button');
+        const musicAudio = document.getElementById('music-audio');
+
+        musicButton.addEventListener('click', function() {
+            if (musicAudio.paused) {
+                musicAudio.play();
+                musicButton.textContent = 'escuchala completa mi pirncesa🥺🤍'; // Cambiar texto a "Pausar"
+            } else {
+                musicAudio.pause();
+                musicButton.textContent = 'escuchala ;( ño le pona pausa;('; // Cambiar texto a "Reproducir"
+            }
+        });
+    </script>
+</body>
+</html>
